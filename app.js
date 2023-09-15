@@ -4,7 +4,7 @@ const fs = require("fs");
 
 //Define Server Configuration:
 const hostname = "127.0.0.1";
-const port = 3200;
+const port = process.env.PORT || 3200;
 
 //Read HTML and Image Files:
 const homePage = fs.readFileSync("main.html");
