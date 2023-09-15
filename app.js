@@ -3,7 +3,7 @@ const http = require("http")
 const fs = require("fs");
 
 //Define Server Configuration:
-const hostname = "127.0.0.1";
+const hostname = "0.0.0.0";
 const port = process.env.PORT || 3200;
 
 //Read HTML and Image Files:
